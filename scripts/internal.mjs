@@ -28,15 +28,15 @@ const settings = JSON.parse(fs.readFileSync(settingsPath).toString())
   settings.showGithub ??= true
   settings.showLanguage ??= true
   settings.showRate ??= true
-  settings.title ??= '发现导航 - 精选实用导航网站'
-  settings.description ??= '发现导航 - 精选实用导航网站'
+  settings.title ??= 'OnePiece'
+  settings.description ??= 'OnePiece'
   settings.keywords ??=
     '导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js'
   settings.theme ??= 'Light'
   settings.appTheme ??= 'App'
   settings.headerContent ??= ''
   settings.footerContent ??=
-    '<div style="font-weight: bold;">共收录${total}个网站</div><div>Copyright © 2018-present nav3.cn, All Rights Reserved</div>'
+    '<div style="font-weight: bold;">共收录${total}个网站</div><div>OnePiece</div>'
   settings.baiduStatisticsUrl ??=
     'https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba'
   settings.cnzzStatisticsUrl ??= ''
