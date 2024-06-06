@@ -32,11 +32,11 @@ const settings = JSON.parse(fs.readFileSync(settingsPath).toString())
   settings.description ??= 'OnePiece'
   settings.keywords ??=
     '导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js'
-  settings.theme ??= 'Light'
+  settings.theme ??= 'Side'
   settings.appTheme ??= 'App'
   settings.headerContent ??= ''
   settings.footerContent ??=
-    '<div style="font-weight: bold;">共收录${total}个网站</div><div>OnePiece</div>'
+    '<div>OnePiece</div>'
   settings.baiduStatisticsUrl ??=
     'https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba'
   settings.cnzzStatisticsUrl ??= ''
