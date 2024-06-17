@@ -1,7 +1,7 @@
 // Copyright @ 2018-present xiejiahe. All rights reserved. MIT license.
 // See https://github.com/xjh22222228/nav
 
-export type ThemeType = 'Light' | 'Sim' | 'Side' | 'App' | 'Shortcut'
+export type ThemeType = 'Side' | 'App' | 'Shortcut' | 'Light' | 'Sim'
 
 export interface ITagPropValues {
   name?: string
