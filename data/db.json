@@ -1,28 +1,31 @@
-[{
-	"title": "study",
-	"nav": [{
-		"title": "电子书",
-		"nav": [{
-			"title": "下载站",
-			"nav": [
-			{
-				"name": "Java菜市场",
-				"createdAt": "2021-02-18T13:06:06.671Z",
-				"rate": 5,
-				"desc": "专注于技术干货的免费分析",
-				"top": false,
-				"icon": "https://github.githubassets.com/favicons/favicon.svg",
-				"url": "https://javaweb.shop/",
-				"urls": {
-					"Github": "https://javaweb.shop/"
-				}
-			},
+[
+	{
+		"title": "study",
+		"nav": [
+		{
+			"title": "电子书",
+			"nav": [{
+				"title": "下载站",
+				"nav": [
+				{
+					"name": "Java菜市场",
+					"createdAt": "2021-02-18T13:06:06.671Z",
+					"rate": 5,
+					"desc": "专注于技术干货的免费分析",
+					"top": false,
+					"icon": "https://github.githubassets.com/favicons/favicon.svg",
+					"url": "https://javaweb.shop/",
+					"urls": {
+						"Github": "https://javaweb.shop/"
+					}
+				}],
+				"collapsed": false,
+				"createdAt": "2021-01-23T01:32:06.423Z"
+			}],
 			"collapsed": false,
 			"createdAt": "2021-01-23T01:32:06.423Z"
-		},
-		"collapsed": false,
+		}],
+		"id": 0,
 		"createdAt": "2021-01-23T01:32:06.423Z"
-	},
-	"id": 0,
-	"createdAt": "2021-01-23T01:32:06.423Z"
-}]
+	}
+]
